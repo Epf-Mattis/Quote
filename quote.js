@@ -2,23 +2,23 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-let lastCitation = null; // Variable pour stocker la dernière citation affichée
+let lastCitation = null; 
 
 function hazard(citations) {
   let citationAleatoire;
   
-  // Continue de chercher une nouvelle citation jusqu'à ce qu'elle soit différente de la précédente
+  
   do {
     citationAleatoire = citations[Math.floor(Math.random() * citations.length)];
   } while (citationAleatoire === lastCitation);
   
-  lastCitation = citationAleatoire; // Mettre à jour la dernière citation affichée
+  lastCitation = citationAleatoire; 
   return citationAleatoire;
 }
 
 http.createServer(function (req, res) {
   if (req.url === '/quote') {
-    // Lire le fichier citations.json avec encodage UTF-8
+    
     fs.readFile(path.join(__dirname, 'citations.json'), 'utf8', (err, data) => {
       if (err) {
         res.writeHead(500, { 'Content-Type': 'text/plain; charset=utf-8' });
@@ -29,9 +29,9 @@ http.createServer(function (req, res) {
       try {
         const citations = JSON.parse(data).citations;
 
-        const citationAleatoire = hazard(citations); // Récupérer une citation aléatoire
+        const citationAleatoire = hazard(citations); 
 
-        // Spécifier l'encodage UTF-8 dans l'en-tête de réponse
+        
         res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
         res.end(`
           <html>
