@@ -1,10 +1,54 @@
 {
-    "citations": [
-      "La vie est ce que vous en faites, alors faites-en un chef-d'œuvre.",
-      "Le succès, c'est d'aller d'échec en échec sans perdre son enthousiasme.",
-      "Le seul moyen de faire du bon travail est d’aimer ce que vous faites.",
-      "Il n'est jamais trop tard pour être ce que vous auriez pu être.",
-      "Croyez en vous et tout devient possible."
-    ]
-  }
-  
+  "citations": [
+    {
+      "citations": "La vie est ce que vous en faites, alors faites-en un chef-d'œuvre.",
+      "author": "Winston Churchill",
+      "time": "20th"
+    },
+    {
+      "citations": "Le succès, c'est d'aller d'échec en échec sans perdre son enthousiasme.",
+      "author": "Charni Ismaël",
+      "time": "20th"
+    },
+    {
+      "citations": "Le seul moyen de faire du bon travail est d’aimer ce que vous faites.",
+      "author": "Steve Jobs",
+      "time": "21st"
+    },
+    {
+      "citations": "Il n'est jamais trop tard pour être ce que vous auriez pu être.",
+      "author": "George Eliot",
+      "time": "19th"
+    },
+    {
+      "citations": "Croyez en vous et tout devient possible.",
+      "author": "Winston Churchill",
+      "time": "20th"
+    },
+    {
+      "citations": "La vie est ce que vous en faites, alors faites-en un chef-d'œuvre.",
+      "author": "Mattis Kohen",
+      "time": "18th"
+    },
+    {
+      "citations": "Le succès, c'est d'aller d'échec en échec sans perdre son enthousiasme.",
+      "author": "Emilien Ridard",
+      "time": "21st"
+    },
+    {
+      "citations": "Le seul moyen de faire du bon travail est d’aimer ce que vous faites.",
+      "author": "Steve Jobs",
+      "time": "19th"
+    },
+    {
+      "citations": "Il n'est jamais trop tard pour être ce que vous auriez pu être.",
+      "author": "Amidou Gregory",
+      "time": "21st"
+    },
+    {
+      "citations": "Croyez en vous et tout devient possible.",
+      "author": "Gerald Opara",
+      "time": "18th"
+    }
+  ]
+}
