@@ -11,7 +11,7 @@ Ce projet est un serveur Node.js permettant d'afficher des citations aléatoires
 
 1. Clonez ce dépôt ou copiez les fichiers dans un dossier local :
    ```bash
-   git clone https://github.com/ton-utilisateur/projet-citations.git
+   https://github.com/Epf-Mattis/Quote.git
 
 ## Url possible 
 
